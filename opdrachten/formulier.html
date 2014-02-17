@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CMD</title>
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<meta name="author" content="Monique Stolp">
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<header>
+		<h1>Aanmelden</h1>
+	</header>
+<nav>
+	<ul>
+		<li>Opleiding</li>
+		<li>Onderwijsprogramma</li>
+		<li>Contact</li>
+	</ul>
+</nav>
+
+<main>
+	<p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+	Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+	lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+
+	<p><i>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+	Amsterdam.</i></p>
+
+	<p>Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+	Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+	Voor vragen of opmerkingen kunt u contact [link: contact] met ons op.</p>
+
+	<form action="demo_form.asp" autocomplete="on" title="Contactgegevens">
+		Contactgegevens:<br>
+  		Naam:<input type="text" name="fname"><br>
+  		Bedrijf: <input type="text" name="lname"><br>
+  		Adres: <input type="text" name="adres"><br>
+  		Postcode: <input type="text" name="postcode" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" title="Bijvoorbeeld 1234AB"><br>
+  		Plaats: <input type="text" name="plaats"><br>
+  		Telefoonnummer: <input type="text" name="telnr" pattern="0[\d\s-]{10,13}"><br>
+  		E-mail: <input type="email" name="email" autocomplete="off"><br>
+
+  		Ik wil mijn aanmelden:<br>
+  		<input type="radio" name="type" value="project">Voor een project<br>
+		<input type="radio" name="type" value="stagebedrijf">Als stagebedrijf<br>
+
+		Project<br>
+		1.Titel:<input type="text" name="titel"><br>
+		2.Opdrachtomschrijving:<textarea  name="omschrijving"></textarea><br>
+		3.Doelgroepomschrijving:<textarea  name="doelgroep"></textarea><br>
+		4.Doelstelling/intentie van het project: <textarea  name="doelstelling"></textarea><br>
+		<label>5. Looptijd</label>
+             <select>
+               <option value = "1">5</option>
+               <option value = "2">10</option>
+               <option value = "3">14</option>
+               <option value = "4">20</option>
+             </select> weken<br>
+		6. Deadline:
+  	
+</form>
+</main>
+</body>
+</html>
