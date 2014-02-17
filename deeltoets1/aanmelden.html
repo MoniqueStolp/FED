@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Monique Stolp">
+	<meta name="description" content="Aanmelden Bedrijf">
+	<meta name="keywords" content="opleiding">
+	<title>Formulier</title>
+</head>
+<body> 
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Opleiding</a></li>
+				<li><a href="#">Onderwijsprogramma</a></li>
+				<li><a href="#">Organisatie</a></li>
+				<li><a href="#">Stages en projecten</a></li>
+				<li><a href="aanmelden.html">Aanmelden</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<article>
+			<h1>Aanmelden</h1>
+
+				<p>
+					Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan! Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar. 
+				</p>
+
+				<p>
+					<i>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.</i>
+				</p>
+
+				<p>
+					Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd. Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons op.
+				</p>
+
+				<form>
+					<fieldset>
+						<legend>Contactgegevens:</legend>
+
+					 	<label for "naam"> Naam:</label> 
+					 	<input type="text" id="naam" placeholder="Naam"/>
+
+					 	<br>
+
+					 	<label for "bedrijf"> Bedrijf:</label> 
+					 	<input type="text" id="bedrijf" placeholder="Bedrijf"/>
+
+					 	<br>
+
+					 	<label for "adres"> Adres:</label> 
+					 	<input type="text" id="adres" placeholder="Adres"/>
+
+					 	<br>
+
+					 	<label for "postcode"> Postcode:</label> 
+					 	<input type="text" id="postcode" placeholder="Postcode" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" title="Bijvoorbeeld 1234AB"/>
+
+					 	<br>
+
+					 	<label for "plaats"> Plaats:</label> 
+					 	<input type="text" id="plaats" placeholder="Plaats"/>
+
+					 	<br>
+
+					 	<label for "telefoon"> Telefoon:</label> 
+					 	<input type="tel" id="telefoon" placeholder="Telefoonnummer"/>
+
+					 	<br>
+
+					 	<label for "email"> Email:</label> 
+					 	<input type="email" id="email" placeholder="Email"/>
+					</fieldset>
+				</form>	
+
+				<form>
+					<fieldset>
+						<legend>Ik wil mijn aanmelden:</legend>
+
+						<input type="radio" name="type" value="project">Voor een project<br>
+						<input type="radio" name="type" value="stagebedrijf">Als stagebedrijf<br>
+					</fieldset>
+				</form>
+
+			<table border="">
+				<tr bgcolor="#dcdcdc">
+					<th>Project</th>
+					<th>Stage</th>
+				</tr>
+				<tr>
+					<td>
+						<ol>
+							<li>
+								<label for "titel">Titel:</label> <br>
+					 			<input type="text" id="titel" placeholder="Titel"/>
+							</li>
+
+							<li>
+								<label for "opdracht">Opdrachtomschrijving:</label> <br>
+					 			<textarea type="text" id="opdracht" placeholder="Opdrachtomschrijving"></textarea>
+					 		</li>
+
+							<li>
+								<label for "doelgroep">Doelgroepomschrijving:</label> <br>
+					 			<textarea type="text" id="doelgroep" placeholder="Doelgroepomschrijving"></textarea>
+					 		</li>
+
+							<li>
+								<label for "doel">Doelstelling:</label> <br>
+					 			<textarea type="text" id="doel" placeholder="Doelstelling"></textarea>
+							</li>
+
+							<li>
+								<label for "tijd">Looptijd:</label> <br> 
+					 			<input type="number" id="tijd" placeholder="Looptijd"/>
+							</li>
+
+							<li>
+								<label for "deadline">Deadline:</label>  <br>
+					 			<input type="date" id="deadline" placeholder="Deadline"/>
+					 		</li>
+						</ol>
+					</td>
+
+					<td>
+						<p>Geschikt voor:</p>
+
+								<input type="radio" name="stagejaar" value="tweedejaars">Tweedejaars studenten<br>
+								<input type="radio" name="stagejaar" value="afstudeer">Afstudeer studenten<br>
+								<input type="radio" name="stagejaar" value="onbekend">Onbekend<br>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<p>Geschikt voor:</p>
+
+								<input type="radio" name="soortstudent" value="eerstejaars">Eerstejaars studenten<br>
+								<input type="radio" name="soortstudent" value="tweedejaars">Tweedejaars studenten<br>
+								<input type="radio" name="soortstudent" value="derdejaars">Derdejaars studenten<br>
+								<input type="radio" name="soortstudent" value="afstudeer">Afstudeer studenten<br>
+								<input type="radio" name="soortstudent" value="onbekend">Onbekend<br>
+								
+					</td>
+
+					<td>
+						<ol>
+							<li>Hoe lang is de stage? <br>
+								<input type="radio" name="lengte" value="10weken">10 weken<br>
+								<input type="radio" name="lengte" value="20weken">20 weken<br>	
+							</li>
+
+							<li>
+								<label for "begin">Begin datum:</label>  <br>
+					 			<input type="date" id="begin" placeholder="Begindatum"/>
+					 		</li>
+						</ol>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+					</td>
+
+					<td>
+
+						<label for "beschrijving">Beschrijving werkzaamheden:</label>  <br>
+					 	<input type="text" id="beschrijving" placeholder="Beschrijving"/>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+					</td>
+
+					<td>
+						<p>Beschrijving stagebedrijf</p>
+
+						<label for "bedrijfsnaam">Bedrijfsnaam:</label>  <br>
+					 	<input type="text" id="bedrijfsnaam" placeholder="Bedrijfsnaam"/>
+
+					 	<br>
+
+					 	<label for "adresbedrijf">Adres:</label>  <br>
+					 	<input type="text" id="adresbedrijf" placeholder="Adres"/>
+
+					 	<br>
+
+					 	<label for "postcodebedrijf">Postcode:</label>  <br>
+					 	<input type="text" id="postcodebedrijf" placeholder="Postcode" pattern="[1-9][0-9]{3}\s?[a-zA-Z]{2}" title="Bijvoorbeeld 1234AB"/>
+
+					 	<br>
+
+					 	<label for "plaatsbedrijf">Plaats:</label>  <br>
+					 	<input type="text" id="plaatsbedrijf" placeholder="Plaats"/>
+
+					 	<br>
+
+					 	<label for "sector">Sector:</label>  <br>
+					 	<input type="text" id="sector" placeholder="Sector"/>
+
+					 	<br>
+
+					 	<label for "core">Core Business:</label>  <br>
+					 	<input type="text" id="core" placeholder="Core Business"/>
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<label for "opmerking">Opmerking:</label>  <br>
+					 	<textarea type="text" id="opmerking" placeholder="Opmerking"></textarea>
+					</td>
+
+					<td>
+						<label for "opmerking">Opmerking:</label>  <br>
+					 	<textarea type="text" id="opmerking" placeholder="Opmerking"></textarea>
+					</td>
+				</tr>
+			</table>
+			<input type="submit">
+		</article>
+	</main>
+</body>
+</html>
